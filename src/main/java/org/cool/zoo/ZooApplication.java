@@ -20,6 +20,7 @@ public class ZooApplication extends SpringBootServletInitializer {
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(ZooApplication.class);
     }
+    
 
     @Bean
     public PasswordEncoder passwordEncoder() {
