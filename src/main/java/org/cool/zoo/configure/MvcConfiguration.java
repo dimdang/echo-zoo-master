@@ -17,7 +17,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/").setViewName("index");
+        registry.addViewController("/").setViewName("swagger-ui.html");
         registry.addViewController("/login").setViewName("login");
         registry.addViewController("/swagger").setViewName("swagger");
     }
